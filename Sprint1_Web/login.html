@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="events.html">Eventos</a></li>
+                <li><a href="gallery.html">Galeria</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="login">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Entrar</button>
+                <p id="error-message" style="color: red;"></p>
+                <p id="redirect-message"></p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Fórmula E e Tech Mahindra. Todos os direitos reservados.</p>
+    </footer>
+    <script src="js/validation.js"></script>
+</body>
+</html>
